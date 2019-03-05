@@ -50,7 +50,7 @@ label{
     width: 25%;
 }
 /*--search--*/
-.search{
+/* .search{
 	position: relative;
     display: inline-block;
     float: left;
@@ -123,7 +123,7 @@ label.icon-search span {
     color: #303030;
 	font-size:1.1em;
 	top:-11px;
-}
+} */
 /*--//search--*/
 
 /*--social-icons--*/
@@ -1391,7 +1391,6 @@ ul.social-share li  i.message{
 i.arrow{
   background: url(../images/icons2.png)no-repeat -79px -3px;
     display: inline-block;
-    float: right;
 }
 p.reply i{
       background: url(../images/icons2.png)no-repeat -4px -3px;
