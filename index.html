@@ -15,12 +15,27 @@
 <!-- animation-effect -->
 <link href="css/animate.min.css" rel="stylesheet">
 <script src="js/wow.min.js"></script>
+<!-- loading -->
+<script src="js/loading.js"></script>
+
 <script>
  new WOW().init();
 </script>
 <!-- //animation-effect -->
 </head>
 <body>
+	<div class="loader" style="visibility:hidden">
+	<div class="l_main">
+		<div class="l_square"><span></span><span></span><span></span></div>
+		<div class="l_square"><span></span><span></span><span></span></div>
+		<div class="l_square"><span></span><span></span><span></span></div>
+		<div class="l_square"><span></span><span></span><span></span></div>
+	</div>
+</div>
+
+<div style="text-align:center;clear:both;">
+
+</div>
 <div class="header" id="ban">
 		<div class="container">
 			<div class="header_right wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
@@ -364,7 +379,7 @@
 				<h4>CONTACT ME</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
 						<div class="name">
-							<form action="#" method="post">
+							<form action="mailto：longjunyu7.@foxmail.com" method="post">
 								<input type="text" placeholder="你的名字" required="">
 								<input type="text" placeholder="邮箱地址" required="">
 								<input type="submit" value="提交">
